@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mi Portfolio Dev</title>
+
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap" rel="stylesheet">
+
+    <!-- Estilos -->
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+
+    <!-- El contenido va aquí -->
+    <!-- Navegación -->
+    <nav><!--nav viene de navegación-->
+        <div class="nav-brand">Tu Nombre</div><!--div es un bloque-->
+        <!--agregar botón a la página-->
+        <button class="nav-toggle" aria-label="Abrir menú">☰</button>
+        <!--lista desordenada-->
+        <ul class="nav-links">
+            <!--li - list item-->
+            <li><a href="#about">About</a></li>
+            <!--a - anchor-->
+            <li><a href="#skills">Skills</a></li>
+            <li><a href="#projects">Projects</a></li>
+            <li><a href="#contact">Contacto</a></li>
+        </ul>
+    </nav>
+
+    <main>
+        <!-- Hero -->
+        <section id="hero">
+            <img src="https://via.placeholder.com/150" alt="Foto de Tu Nombre" class="hero-img">
+            <h1>Tu Nombre</h1>
+            <p class="hero-subtitle">Estudiante de Desarrollo Web</p>
+            <a href="#contact" class="btn">Contáctame</a>
+        </section>
+
+        <!-- About -->
+        <section id="about">
+            <h2>Sobre Mí</h2>
+            <p>
+                Soy estudiante de desarrollo web en Enter Tech School.
+                Me apasiona crear soluciones tecnológicas que impacten
+                positivamente en las personas.
+            </p>
+            <p>
+                Actualmente estoy aprendiendo HTML, CSS y JavaScript
+                para construir aplicaciones web modernas.
+            </p>
+            <ul class="about-interests">
+                <li>🎯 Desarrollo web frontend</li>
+                <li>🎨 Diseño de interfaces</li>
+                <li>🤖 Inteligencia artificial</li>
+                <li>📱 Aplicaciones móviles</li>
+            </ul>
+        </section>
+
+        <!-- Skills -->
+        <section id="skills">
+            <h2>Mis Skills</h2>
+            <div class="skills-container">
+                <div class="skill-card">
+                    <h3>HTML</h3>
+                    <p>Estructura y semántica web</p>
+                </div>
+                <div class="skill-card">
+                    <h3>CSS</h3>
+                    <p>Estilos y diseño responsive</p>
+                </div>
+                <div class="skill-card">
+                    <h3>JavaScript</h3>
+                    <p>Interactividad y lógica</p>
+                </div>
+                <div class="skill-card">
+                    <h3>Git</h3>
+                    <p>Control de versiones</p>
+                </div>
+            </div>
+        </section>
+
+        <!-- Projects -->
+        <section id="projects">
+            <h2>Mis Proyectos</h2>
+            <div class="projects-container">
+                <article class="project-card">
+                    <h3>Mi Portfolio Dev</h3>
+                    <p>Sitio web personal construido con HTML, CSS y JavaScript.</p>
+                    <a href="#" class="btn">Ver Proyecto</a>
+                </article>
+                <article class="project-card">
+                    <h3>Calculadora JS</h3>
+                    <p>Calculadora interactiva con operaciones básicas.</p>
+                    <a href="#" class="btn">Ver Proyecto</a>
+                </article>
+                <article class="project-card">
+                    <h3>Landing Page</h3>
+                    <p>Página de aterrizaje responsive para un producto.</p>
+                    <a href="#" class="btn">Ver Proyecto</a>
+                </article>
+            </div>
+        </section>
+
+        <!-- Contact -->
+        <section id="contact">
+            <h2>Contacto</h2>
+            <!--Formulario-->
+            <form id="contact-form">
+                <div class="form-group">
+                    <label for="nombre">Nombre</label>
+                    <input type="text" id="nombre" name="nombre" placeholder="Tu nombre" required>
+                </div>
+                <div class="form-group">
+                    <label for="email">Email</label>
+                    <input type="email" id="email" name="email" placeholder="tu@email.com" required>
+                </div>
+                <div class="form-group">
+                    <label for="mensaje">Mensaje</label>
+                    <textarea id="mensaje" name="mensaje" rows="4" placeholder="Escribe tu mensaje..."
+                        required></textarea>
+                </div>
+                <button type="submit" class="btn">Enviar Mensaje</button>
+                <p id="form-feedback" class="form-feedback"></p>
+            </form>
+        </section>
+
+    </main>
+    <script src="script.js"></script>
+</body>
+<!-- Footer -->
+<footer>
+    <p>Tu Nombre &mdash; Desarrollador Web en formación</p>
+    <p>
+        <a href="https://github.com/TU-USUARIO" target="_blank">GitHub</a> |
+        <a href="https://linkedin.com/in/TU-USUARIO" target="_blank">LinkedIn</a>
+    </p>
+    <p>&copy; 2026 Tu Nombre</p>
+</footer>
+
+</html>
