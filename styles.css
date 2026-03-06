@@ -181,6 +181,13 @@ footer {
   font-size: 0.9rem;
 }
 
+#hero {
+  background-image: url(img/hero-mobile.jpg);
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+}
+
 /* =========================
    RESPONSIVE (min-width: 768px)
    ========================= */
@@ -255,13 +262,6 @@ html {
   scroll-padding-top: 70px;
 }
 
-
-#hero {
-  background-image: url(img/hero-mobile.jpg);
-  background-size: cover;
-  background-position: center;
-  background-attachment: fixed;
-}
 
 #hero::before {
   content: '';
