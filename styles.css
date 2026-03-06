@@ -39,6 +39,11 @@ nav {
   top: 0;
   z-index: 100;
 }
+.logo{
+  margin-top: -30px;
+  width: 40px;
+  height: 40px;
+}
 
 .nav-brand {
   font-weight: 700;
@@ -222,6 +227,7 @@ footer {
 
    /* Hero más grande en desktop */
   #hero {
+    background-image: url(img/Premium\ Vector\ _.jpg);
     padding: 6rem 2rem;
   }
 
@@ -233,4 +239,18 @@ footer {
   section {
     padding: 4rem 2rem;
   }
+}
+
+.form-feedback { margin-top: 1rem; font-weight: 600; }
+.form-feedback.success { color: #16a34a; }
+.form-feedback.error { color: #dc2626; }
+
+/* Sombra sutil en la navegación sticky */
+nav {
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.05);
+}
+
+/* Compensa la nav sticky al hacer scroll */
+html {
+  scroll-padding-top: 70px;
 }
