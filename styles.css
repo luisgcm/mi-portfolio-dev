@@ -257,14 +257,10 @@ html {
 
 
 #hero {
-  background-image: url(img/Premium\ Vector\ _.jpg);
+  background-image: url(img/hero-mobile.jpg);
   background-size: cover;
   background-position: center;
   background-attachment: fixed;
-
-  image-rendering: auto;
-  backface-visibility: hidden;
-  backdrop-filter: blur(0.5px);
 }
 
 #hero::before {
